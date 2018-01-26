@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-link to='/hello-vue'>HelloVue</router-link>
-    <router-link to='/hello-typescript'>HelloTyscript</router-link>
     <router-view/>
+    <div>
+        <router-link to='/hello-vue'>HelloVue</router-link>
+        <router-link to='/hello-typescript'>HelloTyscript</router-link>
+    </div>
   </div>
 </template>
 
@@ -26,6 +28,9 @@ export default class App extends Vue {
   margin-top: 60px;
   img {
     margin-bottom: 10px;
+  }
+  div {
+    margin-top: 20px;
   }
 }
 </style>
