@@ -12,7 +12,7 @@ import Component from 'vue-class-component'
 
 @Component
 export default class HelloVue extends Vue {
-  msg: string = 'Vue + TypeSctipt'
+  msg: string = 'HelloVue'
   count: number = 0
   sayHello (): number {
     this.count++

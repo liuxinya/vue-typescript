@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-link to='/hello-vue'>HelloWorld</router-link>
+    <router-link to='/hello-vue'>HelloVue</router-link>
     <router-link to='/hello-typescript'>HelloTyscript</router-link>
     <router-view/>
   </div>
